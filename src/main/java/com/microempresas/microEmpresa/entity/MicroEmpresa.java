@@ -7,12 +7,12 @@ import org.springframework.data.annotation.Id;
 import com.microempresas.microEmpresa.api.MicroEmpresaDto;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.With;
+import lombok.Setter;
 
-@Data
-@With
+@Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
 public class MicroEmpresa {

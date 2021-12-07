@@ -1,0 +1,24 @@
+### Get All
+GET http://localhost:8080/microempresas
+
+### Get by Id 
+GET http://localhost:8080/microempresas/61aeb2f0acf3e17692f7430b
+
+### Get by id invalid
+GET http://localhost:8080/microempresas/2
+
+### Post new micro empresa
+POST http://localhost:8080/microempresas
+Content-Type: application/json
+
+{
+    "nome": "Daniel Pereira",
+    "cnpj": "99999.88888.1000-20",
+    "email": "daniel@email.com"
+}
+
+### Put micro empresa
+PUT http://localhost:8080/microempresas/61aeb2f0acf3e17692f7430b
+
+### Delete 
+DELETE http://localhost:8080/microempresas/61aeb1bfacf3e17692f7430a
